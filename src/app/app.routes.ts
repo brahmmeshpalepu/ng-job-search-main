@@ -16,9 +16,4 @@ export const routes: Routes = [
     component: JobDetailsComponent,
     pathMatch: 'full',
   },
-  {
-    path: 'jobs/:jobId',
-    component: JobDetailsComponent,
-    pathMatch: 'full',
-  },
 ];
